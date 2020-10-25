@@ -1,39 +1,45 @@
 {
   "ForienUnidentifiedItems": {
-    "NewMystified": "Item Oculto",
-    "Mystify": "Ocultar",
-    "MystifyReplace": "Subistituir pelo Ocultado",
-    "MystifyAs": "Ocultar como…",
-    "MystifyAdvanced": "Ocultar (avançado)…",
+    "NewMystified": "Item Mistificado",
+    "Mystify": "Mistificar",
+    "MystifyReplace": "Subistituir pelo Mistificado",
+    "MystifyAs": "Mistificar como…",
+    "MystifyAdvanced": "Mistificar (avançado)…",
     "Identify": "Identificar",
     "Peek": "Espiar",
 
+    "Item": {
+      "Original": "Original",
+      "Mystified": "Mistificado"
+    },
+
     "Dialog": {
       "MystifyAs": {
-        "Title": "Ocultar {name}",
+        "Title": "Mistificar {name}",
         "Header": "Selecione a fonte da Transmogrificação:",
         "DropZone": "Arraste & Solte um Item aqui para se tornar a nova forma de {name}",
         "Cancel": "Cancelar",
-        "Mystify": "Ocultar",
-        "MystifyReplace": "Subistituir"
+        "Mystify": "Mistificar",
+        "MystifyReplace": "Subistituir",
+        "MystifyAdvanced": "Avançado…"
       },
       "MystifyAdvanced": {
-        "Title": "Ocultar {name}",
+        "Title": "{name} Mistificado",
         "Meta": "Metadados do Item",
         "Original": "Original",
         "Result": "Resultado",
         "Default": "Padrão",
         "Properties": "Manter as Propriedades",
         "Cancel": "Cancelar",
-        "Mystify": "Ocultar",
+        "Mystify": "Mistificar",
         "MystifyReplace": "Subistituir"
       }
     },
 
     "Settings": {
-      "playersWelcomeScreen": {
-        "Enable": "Exibir a tela de boas vindas aos jogadores",
-        "EnableHint": "Desmarque para impedir que os jogadores vejam a tela de boas-vindas no login após uma atualização."
+      "allowNestedItems": {
+        "Name": "Permitir camadas (aninhamento)",
+        "Hint": "Marque esta opção para ser capaz de Mistificar um Item Mistificado, permitindo itens aninhados/em camadas que podem ser identificados um de cada vez."
       },
       "defaultIcons": {
         "name": "Icone Padrão",
@@ -44,7 +50,16 @@
         "name": "Manter Propriedades",
         "hint": "Selecione quais propriedades do item devem ser transferidas por padrão para o item mistificado.",
         "label": "Abrir Gerenciador de Propriedades"
+      },
+      "keepOldIcon": {
+        "name": "Manter o Ícone Original",
+        "hint": "Marque esta opção para manter o ícone do item original ao ocultar. Ocultar Avançado ainda permite selecionar manualmente ícones originais vs padrão."
       }
+    },
+
+    "Notifications": {
+      "defaultIconsInitialized": "Itens não identificados de Forien | Os ícones de item padrão foram atribuídos aleatoriamente. Visite Configurações do Módulo para obter mais informações.",
+      "defaultPropertiesInitialized": "Itens não identificados de Forien | Propriedades do item persistente padrão foram geradas. Visite Configurações do Módulo para obter mais informações."
     }
   }
 }
